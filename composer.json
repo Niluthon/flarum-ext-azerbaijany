@@ -9,6 +9,14 @@
             "email": "niluthon552@gmail.com"
         }
     ],
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Niluthon/flarum-ext-azerbaijany"
+        }
+    ],
+
     "require": {
         "flarum/core": "^0.1.0-beta.8"
     },
