@@ -1,0 +1,19 @@
+flarum-markdown:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the composer (emoji autocompletion function).
+    composer:
+      bold_tooltip: Qalın mətni əlavə edin
+      code_tooltip: Kodu daxil edin
+      header_tooltip: Başlıq mətni əlavə edin
+      italic_tooltip: İtalik mətn əlavə edin
+      link_tooltip: Link əlavə edin
+      ordered_list_tooltip: Nömrələnmiş siyahı əlavə edin
+      quote_tooltip: Sitat əlavə edin
+      unordered_list_tooltip: Add a bulleted list

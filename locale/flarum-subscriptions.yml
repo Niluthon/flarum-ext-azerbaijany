@@ -1,0 +1,55 @@
+flarum-subscriptions:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are displayed as tooltips for discussion badges.
+    badge:
+      following_tooltip: => flarum-subscriptions.ref.following
+      ignoring_tooltip: => flarum-subscriptions.ref.ignoring
+
+    # These translations are used by the discussion control buttons.
+    discussion_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      unfollow_button: İzləməmək
+      unignore_button: Unignore
+
+    # These translations are used on the index page, peripheral to the discussion list.
+    index:
+      following_link: => flarum-subscriptions.ref.following
+
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    notifications:
+      new_post_text: "{username} posted"
+
+    # These translations are used in the Settings page.
+    settings:
+      follow_after_reply_label: Cavab verdiyim müzakirələri avtomatik olaraq izləmək
+      notify_new_post_label: Kimsə mən izlediyim müzakirədə cavab verdi
+
+    # These translations are used in the subscription menu displayed to the right of the post stream.
+    sub_controls:
+      follow_button: => flarum-subscriptions.ref.follow
+      following_button: => flarum-subscriptions.ref.following
+      following_text: Bütün cavablar barədə xəbərdar olun.
+      ignoring_button: => flarum-subscriptions.ref.ignoring
+      ignoring_text: Heç vaxt bildiş almayın. Müzakirə siyahısından gizlənin.
+      not_following_button: İzləmirəm
+      not_following_text: "Be notified only when @mentioned."
+      notify_alert_tooltip: Yeni mesajlar olduqda forumda bildiriş alın
+      notify_email_tooltip: Yeni mesajlar olduqda e-poçta bildiriş alın
+
+  ##
+  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  ##
+
+  # Translations in this namespace are referenced by two or more unique keys.
+  ref:
+    follow: İzləmək
+    following: İzləyirəm
+    ignoring: Məhəl Qoymuram
+

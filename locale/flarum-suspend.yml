@@ -1,0 +1,37 @@
+flarum-suspend:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      suspend_users_label: Suspend users
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "{username} sizi {timeReadable} bloka saldı"
+      user_unsuspended_text: "{username} sizi blokdan çıxardı"
+
+    # These translations are used in the Suspend User modal dialog (admin function).
+    suspend_user:
+      indefinitely_label: Həmişəlik Bloka Salınıb
+      limited_time_days_text: " gün"
+      limited_time_label: Müəyyən vaxt ərzində blokda olacaq...
+      not_suspended_label: Bloka salınmayıb
+      status_heading: Blok statusu
+      submit_button: => core.ref.save_changes
+      title: "{username} bloka sal"
+
+    # These translations are displayed as tooltips for user badges.
+    user_badge:
+      suspended_tooltip: Blokda
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      suspend_button: Bloka sal
