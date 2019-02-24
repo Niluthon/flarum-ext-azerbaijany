@@ -134,14 +134,14 @@ core:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_post_editing_label: Yazıların redaktə edilməsinə icazəsi olanlar
+      allow_post_editing_label: Mesajların redaktə edilməsinə icazəsi olanlar
       allow_renaming_label: Yeniden adlandırmaya icazəsi olanlar
       create_heading: Yaratmaq
       delete_discussions_forever_label: Müzakirələri tam silmək
       delete_discussions_label: Müzakirələri silmək
       delete_posts_forever_label: Mesajları tam silmək
       delete_posts_label: Mesajları silmək
-      edit_posts_label: Yazıları redaktə etmək
+      edit_posts_label: Mesajları redaktə etmək
       global_heading: Qlobal
       moderate_heading: Moderate
       new_group_button: Yeni qrup
@@ -204,7 +204,7 @@ core:
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      body_placeholder: Yazı yazın...
+      body_placeholder: Mesajınızı daxil edin...
       discard_confirmation: "Müzakirəni göndərmədiniz. İmtina etmək istəyirsiniz?"
       submit_button: Müzakirəni əlavə edin
       title: => core.ref.start_a_discussion
