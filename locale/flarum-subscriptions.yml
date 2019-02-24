@@ -39,7 +39,7 @@ flarum-subscriptions:
       ignoring_button: => flarum-subscriptions.ref.ignoring
       ignoring_text: Heç vaxt bildiş almayın. Müzakirə siyahısından gizlənin.
       not_following_button: İzləmirəm
-      not_following_text: "Be notified only when @mentioned."
+      not_following_text: "Yalnız @xatırlananda xəbərdar olun."
       notify_alert_tooltip: Yeni mesajlar olduqda forumda bildiriş alın
       notify_email_tooltip: Yeni mesajlar olduqda e-poçta bildiriş alın
 
@@ -51,5 +51,5 @@ flarum-subscriptions:
   ref:
     follow: İzləmək
     following: İzləyirəm
-    ignoring: Məhəl Qoymuram
+    ignoring: İnqor
 

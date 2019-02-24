@@ -270,7 +270,7 @@ core:
 
     # These translations are used in the header and session dropdown menu.
     header:
-      admin_button: İdarə
+      admin_button: İdarə Paneli
       back_to_index_tooltip: Müzakirə Siyahısına Qayıt
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
@@ -294,7 +294,7 @@ core:
       newest_button: Yeni
       oldest_button: Köhnə
       relevance_button: Uyğunluq
-      top_button: Yuxarı
+      top_button: Populyar
 
     # These translations are used in the Log In modal dialog.
     log_in:
