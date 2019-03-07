@@ -29,15 +29,15 @@ flarum-subscriptions:
     # These translations are used in the Settings page.
     settings:
       follow_after_reply_label: Cavab verdiyim müzakirələri avtomatik olaraq izləmək
-      notify_new_post_label: Kimsə mən izlediyim müzakirədə cavab verdi
+      notify_new_post_label: İzlədiyim müzakirələrdə yeni cavab göndərilərsə
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
     sub_controls:
       follow_button: => flarum-subscriptions.ref.follow
       following_button: => flarum-subscriptions.ref.following
-      following_text: Bütün cavablar barədə xəbərdar olun.
+      following_text: Bütün cavablar haqqında bildiriş alacaqsınız.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Heç vaxt bildiş almayın. Müzakirə siyahısından gizlənin.
+      ignoring_text: Bildiriş almayacaqsınız. Müzakirə siyahınızdan çıxarılacaq.
       not_following_button: İzləmirəm
       not_following_text: "Yalnız @xatırlananda xəbərdar olun."
       notify_alert_tooltip: Yeni mesajlar olduqda forumda bildiriş alın
@@ -49,7 +49,7 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: İzləmək
-    following: İzləyirəm
-    ignoring: İqnor
+    follow: İzlənilmir
+    following: İzlənilir
+    ignoring: Gizlə
 

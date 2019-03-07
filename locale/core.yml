@@ -74,7 +74,7 @@ core:
       delete_button: Qrupu Sil
       delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
       icon_label: İkon
-      icon_text: "<a>FontAwesomun</a> bir icon klasının adını daxil edin, <em>o cümlədən</em> <code>fas fa-</code> kimi prefikləridə daxil olmaqla."
+      icon_text: "<a>FontAwesomun</a> ikon klasının adını daxil edin, <em>o cümlədən</em> <code>fas fa-</code> kimi prefikləridə daxil olmaqla."
       name_label: Ad
       plural_placeholder: Cəm (məsələn Mods)
       singular_placeholder: Tək (məsələn, Mod)
@@ -174,7 +174,7 @@ core:
     # These translations are used in image upload buttons.
     upload_image:
       remove_button: => core.ref.remove
-      upload_button: Bir Şəkil Seçin...
+      upload_button: Şəkil Seçin...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -184,7 +184,7 @@ core:
       confirm_password_placeholder: => core.ref.confirm_password
       confirmation_message: => core.ref.confirmation_email_sent
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: Daxil etdiyiniz şifrə yanlışdır.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -231,7 +231,7 @@ core:
       delete_button: => core.ref.delete
       delete_confirmation: "Bu müzakirəni silmək istədiyinizə əminsinizmi?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Cavab vermək üçün daxil olun
+      log_in_to_reply_button: Daxil ol
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
@@ -362,7 +362,7 @@ core:
       notifications_heading: => core.ref.notifications
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: Web
-      notify_discussion_renamed_label: Kimsə başladığım müzakirənin başliğını dəyişdi
+      notify_discussion_renamed_label: Kimsə başladığım müzakirənin başlığını dəyişdi
       privacy_disclose_online_label: Onlayn olduğum zaman başqalarının görməsinə icazə verin
       privacy_heading: Gizlilik
       title: => core.ref.settings
@@ -552,7 +552,7 @@ core:
     previous_page: Əvvəlki səhifə
     remove: Remove
     rename: Yeniden adlandırın
-    reply: Cavab ver                                 # Referenced by flarum-mentions.yml
+    reply: Cavabla                                # Referenced by flarum-mentions.yml
     reset_your_password: Şifrənizi sıfırlayın
     restore: Bərpa edin
     save_changes: Dəyişiklikləri yadda saxl                  # Referenced by flarum-suspend.yml, flarum-tags.yml

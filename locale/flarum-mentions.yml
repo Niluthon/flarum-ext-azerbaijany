@@ -30,7 +30,7 @@ flarum-mentions:
     # These translations are used in the Settings page.
     settings:
       notify_post_mentioned_label: Kimsə mesajlarımdan birinə cavab verib
-      notify_user_mentioned_label: Kimsə məni bir mesajda xatırlatdı
+      notify_user_mentioned_label: Kimsə məni mesajında xatırlatdı
 
     # These translations are used in the user profile page and profile popup.
     user:
